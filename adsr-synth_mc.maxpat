@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 365.0, 115.0, 672.0, 412.0 ],
+		"rect" : [ 617.0, 170.0, 672.0, 412.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 11.595186999999999,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 17.0, 69.0, 36.0, 21.0 ],
+					"text" : "swap"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
@@ -124,20 +136,6 @@
 					"patching_rect" : [ 35.0, 161.0, 161.25, 50.0 ],
 					"text" : "sah~ passes the new frequency when adsr~ signals a new envelope",
 					"textcolor" : [ 0.501961, 0.501961, 0.501961, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 13.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "int", "int" ],
-					"patching_rect" : [ 17.0, 60.0, 73.0, 23.0 ],
-					"text" : "swap"
 				}
 
 			}
@@ -337,7 +335,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 382.0, 48.0, 23.0 ],
+					"patching_rect" : [ 17.0, 393.0, 48.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"attr_comment" : ""
 					}
@@ -506,7 +504,9 @@
 				}
 
 			}
- ]
+ ],
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }

@@ -40,307 +40,42 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-67",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1190.367868071624798, 531.714301824569702, 101.0, 22.0 ],
-					"text" : "prepend midinote"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-44",
-					"maxclass" : "newobj",
+					"id" : "obj-14",
+					"maxclass" : "kslider",
+					"mode" : 1,
 					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1190.367868071624798, 495.333347916603088, 41.0, 22.0 ],
-					"text" : "pak f i"
+					"numoutlets" : 2,
+					"offset" : 0,
+					"outlettype" : [ "int", "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 988.166696548461914, 216.0, 444.0, 53.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 20.368321895599365, 507.0, 851.0, 95.0 ],
+					"range" : 64
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"coll_data" : 					{
-						"count" : 65,
-						"data" : [ 							{
-								"key" : 0,
-								"value" : [ 41.600000000000001 ]
-							}
-, 							{
-								"key" : 1,
-								"value" : [ 46.800000000000004 ]
-							}
-, 							{
-								"key" : 2,
-								"value" : [ 52.0 ]
-							}
-, 							{
-								"key" : 3,
-								"value" : [ 57.200000000000003 ]
-							}
-, 							{
-								"key" : 4,
-								"value" : [ 62.400000000000006 ]
-							}
-, 							{
-								"key" : 5,
-								"value" : [ 67.600000000000009 ]
-							}
-, 							{
-								"key" : 6,
-								"value" : [ 72.799999999999997 ]
-							}
-, 							{
-								"key" : 7,
-								"value" : [ 78.0 ]
-							}
-, 							{
-								"key" : 8,
-								"value" : [ 83.200000000000003 ]
-							}
-, 							{
-								"key" : 9,
-								"value" : [ 88.400000000000006 ]
-							}
-, 							{
-								"key" : 10,
-								"value" : [ 93.600000000000009 ]
-							}
-, 							{
-								"key" : 11,
-								"value" : [ 98.799999999999997 ]
-							}
-, 							{
-								"key" : 12,
-								"value" : [ 104.0 ]
-							}
-, 							{
-								"key" : 13,
-								"value" : [ 109.200000000000003 ]
-							}
-, 							{
-								"key" : 14,
-								"value" : [ 114.400000000000006 ]
-							}
-, 							{
-								"key" : 15,
-								"value" : [ 119.600000000000009 ]
-							}
-, 							{
-								"key" : 16,
-								"value" : [ 124.800000000000011 ]
-							}
-, 							{
-								"key" : 17,
-								"value" : [ 130.0 ]
-							}
-, 							{
-								"key" : 18,
-								"value" : [ 135.200000000000017 ]
-							}
-, 							{
-								"key" : 19,
-								"value" : [ 140.400000000000006 ]
-							}
-, 							{
-								"key" : 20,
-								"value" : [ 145.599999999999994 ]
-							}
-, 							{
-								"key" : 21,
-								"value" : [ 150.800000000000011 ]
-							}
-, 							{
-								"key" : 22,
-								"value" : [ 156.0 ]
-							}
-, 							{
-								"key" : 23,
-								"value" : [ 161.200000000000017 ]
-							}
-, 							{
-								"key" : 24,
-								"value" : [ 166.400000000000006 ]
-							}
-, 							{
-								"key" : 25,
-								"value" : [ 171.599999999999994 ]
-							}
-, 							{
-								"key" : 26,
-								"value" : [ 176.800000000000011 ]
-							}
-, 							{
-								"key" : 27,
-								"value" : [ 182.0 ]
-							}
-, 							{
-								"key" : 28,
-								"value" : [ 187.200000000000017 ]
-							}
-, 							{
-								"key" : 29,
-								"value" : [ 192.400000000000006 ]
-							}
-, 							{
-								"key" : 30,
-								"value" : [ 197.599999999999994 ]
-							}
-, 							{
-								"key" : 31,
-								"value" : [ 202.800000000000011 ]
-							}
-, 							{
-								"key" : 32,
-								"value" : [ 208.0 ]
-							}
-, 							{
-								"key" : 33,
-								"value" : [ 213.200000000000017 ]
-							}
-, 							{
-								"key" : 34,
-								"value" : [ 218.400000000000006 ]
-							}
-, 							{
-								"key" : 35,
-								"value" : [ 223.599999999999994 ]
-							}
-, 							{
-								"key" : 36,
-								"value" : [ 228.800000000000011 ]
-							}
-, 							{
-								"key" : 37,
-								"value" : [ 234.0 ]
-							}
-, 							{
-								"key" : 38,
-								"value" : [ 239.200000000000017 ]
-							}
-, 							{
-								"key" : 39,
-								"value" : [ 244.400000000000006 ]
-							}
-, 							{
-								"key" : 40,
-								"value" : [ 249.600000000000023 ]
-							}
-, 							{
-								"key" : 41,
-								"value" : [ 254.800000000000011 ]
-							}
-, 							{
-								"key" : 42,
-								"value" : [ 260.0 ]
-							}
-, 							{
-								"key" : 43,
-								"value" : [ 265.199999999999989 ]
-							}
-, 							{
-								"key" : 44,
-								"value" : [ 270.400000000000034 ]
-							}
-, 							{
-								"key" : 45,
-								"value" : [ 275.600000000000023 ]
-							}
-, 							{
-								"key" : 46,
-								"value" : [ 280.800000000000011 ]
-							}
-, 							{
-								"key" : 47,
-								"value" : [ 286.0 ]
-							}
-, 							{
-								"key" : 48,
-								"value" : [ 291.199999999999989 ]
-							}
-, 							{
-								"key" : 49,
-								"value" : [ 296.400000000000034 ]
-							}
-, 							{
-								"key" : 50,
-								"value" : [ 301.600000000000023 ]
-							}
-, 							{
-								"key" : 51,
-								"value" : [ 306.800000000000011 ]
-							}
-, 							{
-								"key" : 52,
-								"value" : [ 312.0 ]
-							}
-, 							{
-								"key" : 53,
-								"value" : [ 317.199999999999989 ]
-							}
-, 							{
-								"key" : 54,
-								"value" : [ 322.400000000000034 ]
-							}
-, 							{
-								"key" : 55,
-								"value" : [ 327.600000000000023 ]
-							}
-, 							{
-								"key" : 56,
-								"value" : [ 332.800000000000011 ]
-							}
-, 							{
-								"key" : 57,
-								"value" : [ 338.0 ]
-							}
-, 							{
-								"key" : 58,
-								"value" : [ 343.199999999999989 ]
-							}
-, 							{
-								"key" : 59,
-								"value" : [ 348.400000000000034 ]
-							}
-, 							{
-								"key" : 60,
-								"value" : [ 353.600000000000023 ]
-							}
-, 							{
-								"key" : 61,
-								"value" : [ 358.800000000000011 ]
-							}
-, 							{
-								"key" : 62,
-								"value" : [ 364.0 ]
-							}
-, 							{
-								"key" : 63,
-								"value" : [ 369.199999999999989 ]
-							}
-, 							{
-								"key" : 64,
-								"value" : [ 374.400000000000034 ]
-							}
- ]
-					}
-,
-					"id" : "obj-45",
+					"id" : "obj-11",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 5,
 					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1190.367868071624798, 430.333358108997345, 138.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"embed" : 1,
-						"precision" : 6
-					}
-,
-					"text" : "coll mapping @embed 1"
+					"outlettype" : [ "signal", "signal", "", "" ],
+					"patching_rect" : [ 797.0, 697.0, 61.0, 22.0 ],
+					"text" : "adsr~"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "int" ],
+					"patching_rect" : [ 1002.0, 391.0, 57.0, 22.0 ],
+					"text" : "split 0 64"
 				}
 
 			}
@@ -374,24 +109,6 @@
 					"patching_rect" : [ 899.0, 707.0, 24.0, 24.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 692.0, 373.406559946746938, 118.202302222976641, 118.202302222976641 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-9",
-					"inputmode" : 1,
-					"maxclass" : "kslider",
-					"mode" : 1,
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"offset" : 0,
-					"outlettype" : [ "int", "int" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1054.0, 360.000011444091797, 494.0, 57.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 502.406559946746938, 836.0, 91.0 ],
-					"range" : 65
 				}
 
 			}
@@ -1117,8 +834,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1002.666696548461914, 460.000013709068298, 41.0, 22.0 ],
-					"text" : "pak f i"
+					"patching_rect" : [ 1002.666696548461914, 460.000013709068298, 47.0, 22.0 ],
+					"text" : "pack f i"
 				}
 
 			}
@@ -1264,7 +981,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 965.333362102508545, 883.000015497207642, 263.0, 23.0 ],
-					"text" : "poly~ adsr-synth_mc 10 @steal 1 @target 0"
+					"text" : "poly~ adsr-synth_mc 10 @target 0 @steal 1"
 				}
 
 			}
@@ -1275,7 +992,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "int", "int" ],
-					"patching_rect" : [ 1002.666696548461914, 384.000011444091797, 41.0, 22.0 ],
+					"patching_rect" : [ 1002.666696548461914, 356.000011444091797, 41.0, 22.0 ],
 					"text" : "notein"
 				}
 
@@ -1531,263 +1248,263 @@
 						"count" : 65,
 						"data" : [ 							{
 								"key" : 0,
-								"value" : [ 41.600000000000001 ]
+								"value" : [ 128.800000000000011 ]
 							}
 , 							{
 								"key" : 1,
-								"value" : [ 46.800000000000004 ]
+								"value" : [ 144.900000000000006 ]
 							}
 , 							{
 								"key" : 2,
-								"value" : [ 52.0 ]
+								"value" : [ 161.0 ]
 							}
 , 							{
 								"key" : 3,
-								"value" : [ 57.200000000000003 ]
+								"value" : [ 177.100000000000023 ]
 							}
 , 							{
 								"key" : 4,
-								"value" : [ 62.400000000000006 ]
+								"value" : [ 193.200000000000017 ]
 							}
 , 							{
 								"key" : 5,
-								"value" : [ 67.600000000000009 ]
+								"value" : [ 209.300000000000011 ]
 							}
 , 							{
 								"key" : 6,
-								"value" : [ 72.799999999999997 ]
+								"value" : [ 225.400000000000034 ]
 							}
 , 							{
 								"key" : 7,
-								"value" : [ 78.0 ]
+								"value" : [ 241.500000000000028 ]
 							}
 , 							{
 								"key" : 8,
-								"value" : [ 83.200000000000003 ]
+								"value" : [ 257.600000000000023 ]
 							}
 , 							{
 								"key" : 9,
-								"value" : [ 88.400000000000006 ]
+								"value" : [ 273.700000000000045 ]
 							}
 , 							{
 								"key" : 10,
-								"value" : [ 93.600000000000009 ]
+								"value" : [ 289.800000000000011 ]
 							}
 , 							{
 								"key" : 11,
-								"value" : [ 98.799999999999997 ]
+								"value" : [ 305.900000000000034 ]
 							}
 , 							{
 								"key" : 12,
-								"value" : [ 104.0 ]
+								"value" : [ 322.0 ]
 							}
 , 							{
 								"key" : 13,
-								"value" : [ 109.200000000000003 ]
+								"value" : [ 338.100000000000023 ]
 							}
 , 							{
 								"key" : 14,
-								"value" : [ 114.400000000000006 ]
+								"value" : [ 354.200000000000045 ]
 							}
 , 							{
 								"key" : 15,
-								"value" : [ 119.600000000000009 ]
+								"value" : [ 370.300000000000011 ]
 							}
 , 							{
 								"key" : 16,
-								"value" : [ 124.800000000000011 ]
+								"value" : [ 386.400000000000034 ]
 							}
 , 							{
 								"key" : 17,
-								"value" : [ 130.0 ]
+								"value" : [ 402.500000000000057 ]
 							}
 , 							{
 								"key" : 18,
-								"value" : [ 135.200000000000017 ]
+								"value" : [ 418.600000000000023 ]
 							}
 , 							{
 								"key" : 19,
-								"value" : [ 140.400000000000006 ]
+								"value" : [ 434.700000000000045 ]
 							}
 , 							{
 								"key" : 20,
-								"value" : [ 145.599999999999994 ]
+								"value" : [ 450.800000000000068 ]
 							}
 , 							{
 								"key" : 21,
-								"value" : [ 150.800000000000011 ]
+								"value" : [ 466.900000000000034 ]
 							}
 , 							{
 								"key" : 22,
-								"value" : [ 156.0 ]
+								"value" : [ 483.000000000000057 ]
 							}
 , 							{
 								"key" : 23,
-								"value" : [ 161.200000000000017 ]
+								"value" : [ 499.100000000000023 ]
 							}
 , 							{
 								"key" : 24,
-								"value" : [ 166.400000000000006 ]
+								"value" : [ 515.200000000000045 ]
 							}
 , 							{
 								"key" : 25,
-								"value" : [ 171.599999999999994 ]
+								"value" : [ 531.300000000000068 ]
 							}
 , 							{
 								"key" : 26,
-								"value" : [ 176.800000000000011 ]
+								"value" : [ 547.400000000000091 ]
 							}
 , 							{
 								"key" : 27,
-								"value" : [ 182.0 ]
+								"value" : [ 563.5 ]
 							}
 , 							{
 								"key" : 28,
-								"value" : [ 187.200000000000017 ]
+								"value" : [ 579.600000000000023 ]
 							}
 , 							{
 								"key" : 29,
-								"value" : [ 192.400000000000006 ]
+								"value" : [ 595.700000000000045 ]
 							}
 , 							{
 								"key" : 30,
-								"value" : [ 197.599999999999994 ]
+								"value" : [ 611.800000000000068 ]
 							}
 , 							{
 								"key" : 31,
-								"value" : [ 202.800000000000011 ]
+								"value" : [ 627.900000000000091 ]
 							}
 , 							{
 								"key" : 32,
-								"value" : [ 208.0 ]
+								"value" : [ 644.0 ]
 							}
 , 							{
 								"key" : 33,
-								"value" : [ 213.200000000000017 ]
+								"value" : [ 660.100000000000023 ]
 							}
 , 							{
 								"key" : 34,
-								"value" : [ 218.400000000000006 ]
+								"value" : [ 676.200000000000045 ]
 							}
 , 							{
 								"key" : 35,
-								"value" : [ 223.599999999999994 ]
+								"value" : [ 692.300000000000068 ]
 							}
 , 							{
 								"key" : 36,
-								"value" : [ 228.800000000000011 ]
+								"value" : [ 708.400000000000091 ]
 							}
 , 							{
 								"key" : 37,
-								"value" : [ 234.0 ]
+								"value" : [ 724.500000000000114 ]
 							}
 , 							{
 								"key" : 38,
-								"value" : [ 239.200000000000017 ]
+								"value" : [ 740.600000000000023 ]
 							}
 , 							{
 								"key" : 39,
-								"value" : [ 244.400000000000006 ]
+								"value" : [ 756.700000000000045 ]
 							}
 , 							{
 								"key" : 40,
-								"value" : [ 249.600000000000023 ]
+								"value" : [ 772.800000000000068 ]
 							}
 , 							{
 								"key" : 41,
-								"value" : [ 254.800000000000011 ]
+								"value" : [ 788.900000000000091 ]
 							}
 , 							{
 								"key" : 42,
-								"value" : [ 260.0 ]
+								"value" : [ 805.000000000000114 ]
 							}
 , 							{
 								"key" : 43,
-								"value" : [ 265.199999999999989 ]
+								"value" : [ 821.100000000000023 ]
 							}
 , 							{
 								"key" : 44,
-								"value" : [ 270.400000000000034 ]
+								"value" : [ 837.200000000000045 ]
 							}
 , 							{
 								"key" : 45,
-								"value" : [ 275.600000000000023 ]
+								"value" : [ 853.300000000000068 ]
 							}
 , 							{
 								"key" : 46,
-								"value" : [ 280.800000000000011 ]
+								"value" : [ 869.400000000000091 ]
 							}
 , 							{
 								"key" : 47,
-								"value" : [ 286.0 ]
+								"value" : [ 885.500000000000114 ]
 							}
 , 							{
 								"key" : 48,
-								"value" : [ 291.199999999999989 ]
+								"value" : [ 901.600000000000136 ]
 							}
 , 							{
 								"key" : 49,
-								"value" : [ 296.400000000000034 ]
+								"value" : [ 917.700000000000045 ]
 							}
 , 							{
 								"key" : 50,
-								"value" : [ 301.600000000000023 ]
+								"value" : [ 933.800000000000068 ]
 							}
 , 							{
 								"key" : 51,
-								"value" : [ 306.800000000000011 ]
+								"value" : [ 949.900000000000091 ]
 							}
 , 							{
 								"key" : 52,
-								"value" : [ 312.0 ]
+								"value" : [ 966.000000000000114 ]
 							}
 , 							{
 								"key" : 53,
-								"value" : [ 317.199999999999989 ]
+								"value" : [ 982.100000000000136 ]
 							}
 , 							{
 								"key" : 54,
-								"value" : [ 322.400000000000034 ]
+								"value" : [ 998.200000000000045 ]
 							}
 , 							{
 								"key" : 55,
-								"value" : [ 327.600000000000023 ]
+								"value" : [ 1014.300000000000068 ]
 							}
 , 							{
 								"key" : 56,
-								"value" : [ 332.800000000000011 ]
+								"value" : [ 1030.400000000000091 ]
 							}
 , 							{
 								"key" : 57,
-								"value" : [ 338.0 ]
+								"value" : [ 1046.5 ]
 							}
 , 							{
 								"key" : 58,
-								"value" : [ 343.199999999999989 ]
+								"value" : [ 1062.600000000000136 ]
 							}
 , 							{
 								"key" : 59,
-								"value" : [ 348.400000000000034 ]
+								"value" : [ 1078.700000000000045 ]
 							}
 , 							{
 								"key" : 60,
-								"value" : [ 353.600000000000023 ]
+								"value" : [ 1094.800000000000182 ]
 							}
 , 							{
 								"key" : 61,
-								"value" : [ 358.800000000000011 ]
+								"value" : [ 1110.900000000000091 ]
 							}
 , 							{
 								"key" : 62,
-								"value" : [ 364.0 ]
+								"value" : [ 1127.0 ]
 							}
 , 							{
 								"key" : 63,
-								"value" : [ 369.199999999999989 ]
+								"value" : [ 1143.100000000000136 ]
 							}
 , 							{
 								"key" : 64,
-								"value" : [ 374.400000000000034 ]
+								"value" : [ 1159.200000000000045 ]
 							}
  ]
 					}
@@ -2295,7 +2012,7 @@
 					"versionnumber" : 80300,
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 0.0, 17.0 ],
-					"whole_roll_data_0000000000" : [ "roll", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "]", "[", "commands", "[", 1, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 2, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 3, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 4, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 5, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "]", "[", "groups", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2004245794, 3230169943, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082081280, 100, 0, "]", 0, "]", 0, "]" ],
+					"whole_roll_data_0000000000" : [ "roll", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "]", "[", "commands", "[", 1, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 2, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 3, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 4, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 5, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "]", "[", "groups", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2580633459, 1083331742, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082081280, 100, 0, "]", 0, "]", 0, "]" ],
 					"whole_roll_data_count" : [ 1 ]
 				}
 
@@ -2338,7 +2055,7 @@
 					"versionnumber" : 80300,
 					"voicenames" : [ "[", "]" ],
 					"voicespacing" : [ 0.0, 17.0 ],
-					"whole_roll_data_0000000000" : [ "roll", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "]", "[", "commands", "[", 1, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 2, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 3, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 4, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 5, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "]", "[", "groups", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080623104, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 572680376, 1084621098, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081671680, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 232889007, 1084725500, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082310656, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3241997378, 1084818890, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082720256, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3950632450, 1084903372, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 402784692, 1084980499, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083359232, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1272012238, 1085051448, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083564032, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4284013981, 1085117136, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083768832, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3072101693, 1085178291, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083973632, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 572680376, 1085235498, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084178432, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2798174950, 1085282697, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084305408, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 116444504, 1085308030, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1712827116, 1085331992, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084510208, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1620998689, 1085354725, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084612608, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4204542797, 1085376348, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084715008, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1975316225, 1085396966, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084817408, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1286641140, 1085416667, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084919808, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2348875994, 1085435529, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085022208, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2955657189, 1085453621, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085124608, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 636006118, 1085471004, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085227008, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2178980309, 1085487730, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085302784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2142006990, 1085503848, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085353984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3557830480, 1085519400, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085405184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3683534494, 1085534425, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 743972596, 1085548958, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 286340189, 1085563029, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4037852031, 1085576666, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2798174950, 1085589897, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3476665492, 1085602744, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085712384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 116444504, 1085615230, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 603829383, 1085627373, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085814784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1712827116, 1085639192, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085865984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2698541924, 1085650704, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085917184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1620998689, 1085661925, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085968384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 182482190, 1085672869, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086019584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4204542797, 1085683548, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086070784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2574030830, 1085693977, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086121984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1975316225, 1085704166, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086173184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1451103004, 1085714126, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086224384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1286641140, 1085723867, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086275584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3272353366, 1085733398, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086325760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2348875994, 1085742729, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086351360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3997673793, 1085751867, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086376960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2955657189, 1085760821, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086402560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 565743459, 1085769598, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086428160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 636006118, 1085778204, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086453760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 989176432, 1085786646, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086479360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2178980309, 1085794930, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086504960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3309974725, 1085803062, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086530560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2142006990, 1085811048, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3775362922, 1085818892, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086581760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3557830480, 1085826600, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086607360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 49103193, 1085834177, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086632960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3683534494, 1085841625, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086658560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2477200080, 1085848951, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086684160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 743972596, 1085856158, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086709760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1972111306, 1085863249, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086735360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 286340188, 1085870229, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086760960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1970664619, 1085877100, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086786560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4037852031, 1085883866, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086812160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2860351144, 1085890531, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086837760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2798174950, 1085897097, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086863360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3349176946, 1085903567, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086888960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3476665492, 1085909944, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086914560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1639735229, 1085916231, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086940160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 116444504, 1085922430, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", 0, "]" ],
+					"whole_roll_data_0000000000" : [ "roll", "[", "slotinfo", "[", 1, "[", "name", "velocity envelope", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 2, "[", "name", "slot function", "]", "[", "type", "function", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "grid", "]", "[", "ysnap", "]", "[", "domain", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "domainslope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 3, "[", "name", "slot intlist", "]", "[", "type", "intlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 4, "[", "name", "slot floatlist", "]", "[", "type", "floatlist", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 5, "[", "name", "slot int", "]", "[", "type", "int", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080016896, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1078984704, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 6, "[", "name", "slot float", "]", "[", "type", "float", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1072693248, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "default", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 7, "[", "name", "slot text", "]", "[", "type", "text", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 8, "[", "name", "slot filelist", "]", "[", "type", "filelist", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080213504, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 9, "[", "name", "slot spat", "]", "[", "type", "spat", "]", "[", "key", 0, "]", "[", "range", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, "]", "[", "slope", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 0, "]", "[", "representation", "]", "[", "temporalmode", "relative", "]", "[", "extend", 0, "]", "[", "width", "auto", "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 10, "[", "name", "slot llll", "]", "[", "type", "llll", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 11, "[", "name", "slot 11", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 12, "[", "name", "slot 12", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 13, "[", "name", "slot 13", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 14, "[", "name", "slot 14", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 15, "[", "name", "slot 15", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 16, "[", "name", "slot 16", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 17, "[", "name", "slot 17", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 18, "[", "name", "slot 18", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 19, "[", "name", "slot 19", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 20, "[", "name", "dynamics", "]", "[", "type", "dynamics", "]", "[", "key", "d", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 21, "[", "name", "lyrics", "]", "[", "type", "text", "]", "[", "key", "l", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 0, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 22, "[", "name", "articulations", "]", "[", "type", "articulations", "]", "[", "key", "a", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 23, "[", "name", "notehead", "]", "[", "type", "notehead", "]", "[", "key", "h", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079738368, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 24, "[", "name", "annotation", "]", "[", "type", "text", "]", "[", "key", "t", "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 25, "[", "name", "slot 25", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 26, "[", "name", "slot 26", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 27, "[", "name", "slot 27", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 28, "[", "name", "slot 28", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 29, "[", "name", "slot 29", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "[", 30, "[", "name", "slot 30", "]", "[", "type", "none", "]", "[", "key", 0, "]", "[", "temporalmode", "none", "]", "[", "extend", 0, "]", "[", "width", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1079574528, "]", "[", "height", "auto", "]", "[", "copywhensplit", 1, "]", "[", "access", "readandwrite", "]", "[", "follownotehead", 0, "]", "]", "]", "[", "commands", "[", 1, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 2, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 3, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 4, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "[", 5, "[", "name", "command", "]", "[", "note", "note", "]", "[", "chord", "chord", "]", "[", "rest", "rest", "]", "[", "marker", "marker", "]", "[", "start", "none", "]", "[", "end", "none", "]", "[", "key", 0, "]", "]", "]", "[", "groups", "]", "[", "markers", "]", "[", "midichannels", 1, "]", "[", "articulationinfo", "]", "[", "noteheadinfo", "]", "[", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1080623104, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2792642013, 1085449511, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1081671680, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2622746328, 1085501712, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082310656, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4127300512, 1085548407, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1082720256, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 186650753, 1085590649, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083129856, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 560210522, 1085629212, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083359232, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3142307942, 1085664686, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083564032, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 353341518, 1085697531, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083768832, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1894869023, 1085728108, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1083973632, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2792642013, 1085756711, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084178432, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1009509478, 1085783580, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084305408, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2622746328, 1085808912, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084407808, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4219128940, 1085832874, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084510208, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4127300512, 1085855607, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084612608, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2415877324, 1085877231, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084715008, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 186650752, 1085897849, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084817408, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3792942963, 1085917549, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1084919808, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 560210521, 1085936412, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085022208, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1166991718, 1085954504, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085124608, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3142307942, 1085971886, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085227008, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 390314838, 1085988613, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085302784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 353341519, 1086004731, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085353984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1769165007, 1086020283, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085405184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1894869023, 1086035308, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085456384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3250274419, 1086049840, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085507584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2792642013, 1086063911, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085558784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2249186558, 1086077549, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085609984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1009509478, 1086090780, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085661184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1688000019, 1086103627, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085712384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2622746328, 1086116112, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085763584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3110131206, 1086128255, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085814784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4219128940, 1086140074, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085865984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 909876453, 1086151587, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085917184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4127300512, 1086162807, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1085968384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2688784013, 1086173751, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086019584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2415877324, 1086184431, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086070784, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 785365357, 1086194860, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086121984, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 186650754, 1086205049, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086173184, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3957404829, 1086215008, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086224384, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3792942963, 1086224749, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086275584, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1483687894, 1086234281, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086325760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 560210521, 1086243612, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086351360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2209008320, 1086252750, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086376960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1166991718, 1086261704, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086402560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3072045284, 1086270480, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086428160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3142307942, 1086279086, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086453760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3495478256, 1086287528, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086479360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 390314838, 1086295813, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086504960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1521309253, 1086303945, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086530560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 353341519, 1086311931, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086556160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1986697450, 1086319775, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086581760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3032066151, 1086326109, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086607360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3425186157, 1086329897, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086632960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 947434511, 1086333622, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086658560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 344267304, 1086337285, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086684160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1625137210, 1086340888, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086709760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 91722917, 1086344434, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086735360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3543804654, 1086347923, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086760960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2238483221, 1086351359, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086786560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 3272076927, 1086354742, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086812160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 535842837, 1086358075, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086837760, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 504754739, 1086361358, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086863360, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 780255737, 1086364593, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086888960, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 2991483657, 1086367781, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086914560, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 4220502174, 1086370924, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", "[", "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1086940160, "[", "_x_x_x_x_bach_float64_x_x_x_x_", 1311373164, 1086374024, "_x_x_x_x_bach_float64_x_x_x_x_", 0, 1076101120, 100, 0, "]", 0, "]", 0, "]" ],
 					"whole_roll_data_count" : [ 1 ]
 				}
 
@@ -2364,6 +2081,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-87", 1 ],
+					"source" : [ "obj-14", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-14", 0 ]
 				}
 
 			}
@@ -2448,20 +2179,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-67", 0 ],
-					"source" : [ "obj-44", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
 					"source" : [ "obj-47", 0 ]
 				}
@@ -2520,13 +2237,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-40", 3 ],
 					"source" : [ "obj-68", 1 ]
 				}
@@ -2562,15 +2272,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-70", 0 ],
-					"source" : [ "obj-79", 0 ]
+					"destination" : [ "obj-87", 1 ],
+					"source" : [ "obj-79", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 1 ],
-					"source" : [ "obj-79", 1 ]
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-79", 0 ]
 				}
 
 			}
@@ -2604,14 +2314,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 1 ],
-					"source" : [ "obj-9", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-70", 0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
